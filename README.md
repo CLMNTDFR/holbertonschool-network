@@ -1,4 +1,4 @@
-![Networking](https://images.shiksha.com/mediadata/ugcDocuments/images/wordpressImages/2022_02_Blockchain-1p1.jpg)
+[![Networking Basics](https://i.postimg.cc/T2Sd0s5C/2022-02-Blockchain-1p1.jpg)](https://postimg.cc/QVQZx0bT)
 
 # Holberton School Networking Repository
 
