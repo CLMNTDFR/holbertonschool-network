@@ -26,11 +26,14 @@ The `holbertonschool-network` repository is designed to help students grasp fund
 ### `basics_0`
 This directory covers the very basics of networking, including understanding localhost, IP addresses, and basic commands to interact with network interfaces. The tasks here are designed to introduce you to these concepts in a practical, hands-on manner.
 
-| Task No | Task Name                 | Description                                                                                      | File Name                 | Points |
-|---------|---------------------------|--------------------------------------------------------------------------------------------------|---------------------------|--------|
-| 0       | Localhost                  | Write a Bash script that returns the IP address of `localhost`.                                  | `0-localhost`             | 1      |
-| 1       | What's my IP               | Write a Bash script that displays your machine's public IP address.                               | `1-whats_my_ip`           | 1      |
-| 2       | Display active interfaces  | Write a Bash script that displays all active network interfaces.                                  | `2-display_active_ifaces` | 1      |
+| Task No | Task Name                | Description                                                                                             | File Name                      | Points |
+|---------|--------------------------|---------------------------------------------------------------------------------------------------------|--------------------------------|--------|
+| 0       | OSI model                 | Explain the OSI model and its organization.                                                             | `0-OSI_model`                  | 2      |
+| 1       | Types of network          | Differentiate between LAN, WAN, and Internet based on use case and geographical scope.                   | `1-types_of_network`           | 3      |
+| 2       | MAC and IP address        | Explain the concepts of MAC and IP addresses and their roles in networking.                              | `2-MAC_and_IP_address`         | 2      |
+| 3       | UDP and TCP               | Compare the characteristics and uses of TCP and UDP.                                                    | `3-UDP_and_TCP`                | 3      |
+| 4       | TCP and UDP ports         | Write a Bash script to display listening TCP/UDP ports and their associated PIDs.                        | `4-TCP_and_UDP_ports`          | 1      |
+| 5       | Is the host on the network| Write a Bash script to ping an IP address passed as an argument to check if the host is on the network. | `5-is_the_host_on_the_network` | 1      |
 
 ### `basics_1`
 This directory builds on the fundamentals, diving deeper into how to manipulate network configurations, such as modifying the `/etc/hosts` file and setting up port listening on localhost. The tasks are intended to solidify your understanding of network configuration in a Unix environment.
