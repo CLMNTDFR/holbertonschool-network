@@ -1,7 +1,4 @@
 #!/usr/bin/env bash
-# Retrieve the active IPv4 addresses
-ipv4_addresses=$(ip -o -4 addr show scope global | awk '{split($4,a,"/"); print a[1]}')
+# Affiche les IPs IPv4 actives
 
-# Display the IPv4 addresses
-echo "Active IPv4 Addresses:"
-echo "$ipv4_addresses"
+hostname -I | tr ' ' '\n' | grep -v '^$'
