@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# Affiche les IPs IPv4 actives
+# Afficher les adresses IP IPv4 actives
 
-hostname -I | tr ' ' '\n' | grep -v '^$'
+ip -o -4 addr list | awk '{print $4}' | cut -d/ -f1
